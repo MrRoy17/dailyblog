@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyBlog</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/index.html">DailyBlog</a>
+    <!-- Add more navigation links as needed -->
+</nav>
+
+<!-- Blog Section -->
+<section id="blog" class="container">
+    <div class="row">
+        <!-- Filter Section -->
+        <div class="col-md-3">
+            <h2>Filter Posts</h2>
+            <div class="form-group">
+                <select id="filter" class="form-control">
+                    <option value="all">All Posts</option>
+                    <option value="technology">Technology</option>
+                    <option value="lifestyle">Lifestyle</option>
+                    <option value="travel">Travel</option>
+                    <!-- Add more categories as needed -->
+                </select>
+            </div>
+        </div>
+        <!-- Blog Posts Section -->
+        <div id="blog-posts" class="col-md-9">
+            <!-- Blog posts will be dynamically added here -->
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap JS and JQuery (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom JavaScript -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
